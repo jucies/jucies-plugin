@@ -1,0 +1,28 @@
+plugins {
+    id "java"
+    id 'org.jenkins-ci.jpi' version '0.16.0'
+}
+
+group = "org.jenkins-ci.plugins"
+description = "Jucies update center plugin"
+
+jenkinsPlugin {
+    shortName = "jucies"
+    displayName = description
+
+    coreVersion = "1.609.3"
+
+    // disabledTestInjection = true
+
+    developers {
+        developer {
+            id "bsideup"
+            name "Sergei Egorov"
+            email "bsideup@gmail.com"
+        }
+    }
+}
+
+repositories {
+    jcenter()
+}
