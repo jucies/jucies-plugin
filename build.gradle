@@ -9,10 +9,11 @@ description = "Jucies update center plugin"
 jenkinsPlugin {
     shortName = "jucies"
     displayName = description
+    url = "https://github.com/jucies/releases"
+
+    gitHubUrl = "https://github.com/jucies/jucies-plugin"
 
     coreVersion = "1.609.3"
-
-    // disabledTestInjection = true
 
     developers {
         developer {
