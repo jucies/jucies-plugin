@@ -6,6 +6,9 @@ plugins {
 group = "org.jenkins-ci.plugins"
 description = "Jucies update center plugin"
 
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
 jenkinsPlugin {
     shortName = "jucies"
     displayName = description

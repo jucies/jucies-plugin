@@ -1,13 +1,16 @@
 package com.github.jucies.plugin;
 
+import hudson.Extension;
 import hudson.init.Initializer;
 import hudson.model.UpdateCenter;
+import jenkins.YesNoMaybe;
 import jenkins.model.Jenkins;
 
 import java.io.IOException;
 
 import static hudson.init.InitMilestone.PLUGINS_STARTED;
 
+@Extension(dynamicLoadable = YesNoMaybe.NO)
 public class JuciesPlugin {
 
     @Initializer(after = PLUGINS_STARTED)
