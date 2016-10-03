@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "org.jenkins-ci.plugins"
-description = "Plugin adds additional Jucies update center that provides additional plugins distributed in more flexible way."
+description = "Adds Jucies Update Center that provides plugins distributed in more flexible way."
 
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
