@@ -12,7 +12,7 @@ targetCompatibility = 1.6
 jenkinsPlugin {
     shortName = "jucies"
     displayName = description
-    url = "https://github.com/jucies/releases"
+    url = "https://wiki.jenkins-ci.org/display/JENKINS/Jucies+plugin"
 
     gitHubUrl = "https://github.com/jucies/jucies-plugin"
 
